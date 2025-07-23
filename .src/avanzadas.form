@@ -1,0 +1,95 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  Move(0,0,721,420)
+  #Scaled = False
+  Background = Color.White
+  Resizable = False
+  { Label1 Label
+    Move(84,0,812,70)
+    Font = Font["Ubuntu,+4"]
+    Background = &HE7DFFF
+    Foreground = Color.TextForeground
+    Text = ("Configuración Avanzada")
+  }
+  { actualizar Button
+    Move(84,84,294,49)
+    Font = Font["Ubuntu"]
+    Foreground = Color.Black
+    Mouse = Cursor.Pointing
+    Text = ("Actualizar Quirinux")
+    Picture = Picture["icon:/medium/download"]
+  }
+  { repositorios Button
+    Move(84,336,294,49)
+    Font = Font["Ubuntu"]
+    Foreground = Color.Black
+    Mouse = Cursor.Pointing
+    Text = ("Configurar repositorios")
+    Picture = Picture["icon:/medium/package"]
+  }
+  { gimp Button
+    Move(399,84,294,49)
+    Font = Font["Ubuntu"]
+    Foreground = Color.Black
+    Mouse = Cursor.Pointing
+    Text = ("Configurar GIMP")
+    Picture = Picture["icon:/medium/color"]
+  }
+  { flatpak Button
+    Move(399,273,294,49)
+    Font = Font["Ubuntu"]
+    Foreground = Color.Black
+    Mouse = Cursor.Pointing
+    Text = ("Configurar Flatpak")
+    Picture = Picture["icon:/medium/exec"]
+  }
+  { bluetooth Button
+    Move(84,273,294,49)
+    Font = Font["Ubuntu"]
+    Foreground = Color.Black
+    Mouse = Cursor.Pointing
+    Text = ("Configurar Bluetooth")
+    Picture = Picture["icon:/medium/blue"]
+  }
+  { liberar Button
+    Move(399,336,294,49)
+    Font = Font["Ubuntu"]
+    Foreground = Color.Black
+    Mouse = Cursor.Pointing
+    Text = ("Eliminar componentes privativos")
+    Picture = Picture["icon:/medium/gnu"]
+  }
+  { usuarios Button
+    Move(399,210,294,49)
+    Font = Font["Ubuntu"]
+    Foreground = Color.Black
+    Mouse = Cursor.Pointing
+    Text = ("Usuarios, grupos y contraseñas")
+    Picture = Picture["icon:/medium/group"]
+  }
+  { energia Button
+    Move(399,147,294,49)
+    Font = Font["Ubuntu"]
+    Foreground = Color.Black
+    Mouse = Cursor.Pointing
+    Text = ("Administrador de Energía")
+    Picture = Picture["icon:/16/battery"]
+  }
+  { panel Button
+    Move(84,147,294,49)
+    Font = Font["Ubuntu"]
+    Foreground = Color.Black
+    Mouse = Cursor.Pointing
+    Text = ("Panel de control")
+    Picture = Picture["icon:/16/monitor"]
+  }
+  { hardware Button
+    Move(84,210,294,49)
+    Font = Font["Ubuntu"]
+    Foreground = Color.Black
+    Mouse = Cursor.Pointing
+    Text = ("Instalar controladores")
+    Picture = Picture["icon:/medium/hardware"]
+  }
+}

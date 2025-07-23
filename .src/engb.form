@@ -1,0 +1,107 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  Move(0,0,513,358)
+  #Scaled = False
+  #Translate = False
+  Background = &HFFFFFF
+  Resizable = False
+  Border = False
+  { Label1 Label
+    Move(49,0,616,56)
+    #Translate = False
+    Font = Font["Ubuntu,+4"]
+    Background = &HDFF7FF
+    Foreground = Color.Red
+    Text = " Attention"
+  }
+  { TextArea1 TextArea
+    Move(84,84,378,70)
+    #Translate = False
+    Font = Font["Ubuntu"]
+    Background = &HFFFFFF
+    Text = "Throughout this process, you will need to enter your username and password. In the case of the Quirinux USB installation pendrive, these data are:"
+    ReadOnly = True
+    Wrap = True
+    Border = False
+  }
+  { TextArea2 TextArea
+    Move(259,147,203,28)
+    #Translate = False
+    Font = Font["Ubuntu,Bold"]
+    Background = &HFFFFFF
+    Foreground = Color.SelectedBackground
+    Text = "quirinux"
+    Alignment = Align.Left
+    ReadOnly = True
+    Wrap = True
+    Border = False
+  }
+  { TextArea3 TextArea
+    Move(84,210,378,70)
+    #Translate = False
+    Font = Font["Ubuntu"]
+    Background = &HFFFFFF
+    Text = "If you have Quirinux installed on your hard drive, use your own data and if you are working with a foreign computer you will need to consult the administrator."
+    ReadOnly = True
+    Wrap = True
+    Border = False
+  }
+  { TextArea4 TextArea
+    Move(259,175,203,28)
+    #Translate = False
+    Font = Font["Ubuntu,Bold"]
+    Background = &HFFFFFF
+    Foreground = Color.SelectedBackground
+    Text = "quirinux"
+    Alignment = Align.Left
+    ReadOnly = True
+    Wrap = True
+    Border = False
+  }
+  { TextArea5 TextArea
+    Move(84,147,175,28)
+    #Translate = False
+    Font = Font["Ubuntu,Bold"]
+    Background = &HFFFFFF
+    Text = "User:"
+    Alignment = Align.Right
+    ReadOnly = True
+    Wrap = True
+    Border = False
+  }
+  { TextArea6 TextArea
+    Move(84,175,175,28)
+    #Translate = False
+    Font = Font["Ubuntu,Bold"]
+    Background = &HFFFFFF
+    Text = "Password:"
+    Alignment = Align.Right
+    ReadOnly = True
+    Wrap = True
+    Border = False
+  }
+  { Cancelar Button
+    Move(273,301,140,35)
+    #Translate = False
+    Font = Font["Ubuntu"]
+    Background = &HFF9F9F
+    Mouse = Cursor.Pointing
+    Text = "Cancel"
+  }
+  { Traducir Button
+    Move(119,301,140,35)
+    #Translate = False
+    Font = Font["Ubuntu"]
+    Background = &HCFFF9F
+    Mouse = Cursor.Pointing
+    Text = "Translate"
+    Picture = Picture["icon:/32/apply"]
+  }
+  { Label2 Label
+    Move(455,0,35,49)
+    Font = Font["Blue Highway D Type,Bold,Italic,+10"]
+    Foreground = Color.Red
+    Text = ("!")
+  }
+}

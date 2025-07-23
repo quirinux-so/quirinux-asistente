@@ -1,0 +1,45 @@
+# Gambas Action File 3.0
+
+{ Actions
+  { Action ar.Show
+    Text = "Castellano (Argentina)"
+    Shortcut = ""
+  }
+  { Action br.Show
+    Text = "Português (Brasil)"
+    Shortcut = ""
+  }
+  { Action de.Show
+    Text = "Deutsche"
+    Shortcut = ""
+  }
+  { Action engb.Show
+    Text = "English (British)"
+    Shortcut = ""
+  }
+  { Action es.Show
+    Text = "Castellano (España)"
+    Shortcut = ""
+  }
+  { Action fr.Show
+    Text = "Français"
+    Shortcut = ""
+  }
+  { Action gl.Show
+    Text = "Galego"
+    Shortcut = ""
+  }
+  { Action it.Show
+    Text = "Italiano"
+    Shortcut = ""
+  }
+  { Action pt.Show
+    Text = "Português (Portugal)"
+    Shortcut = ""
+  }
+  { Action us.Show
+    Text = "English (USA)"
+    Shortcut = ""
+  }
+}
+

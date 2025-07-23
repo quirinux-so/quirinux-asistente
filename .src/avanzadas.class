@@ -1,0 +1,69 @@
+' Gambas class file
+
+
+
+
+Public Sub repositorios_Click()
+
+  Shell "pkexec thunar /etc/apt/"
+  
+End
+
+Public Sub actualizar_Click()
+
+   Shell "sudo apt-get update" Wait
+   Shell "gpk-update-viewer"
+
+End
+
+Public Sub gimp_Click()
+
+  Shell "gimp-quirinux"
+
+End
+
+Public Sub usuarios_Click()
+
+  Shell "usuarios"
+
+End
+
+Public Sub flatpak_Click()
+
+  Shell "pkexec flatpak-config"
+
+End
+
+Public Sub bluetooth_Click()
+
+  Shell "pkexec bluconfig"
+
+End
+
+
+
+
+Public Sub liberar_Click()
+
+  Shell "xfce4-terminal --command='pkexec /usr/local/bin/libre' --hold"
+
+End
+
+Public Sub energia_Click()
+
+  Shell "xfce4-power-manager-settings"
+
+End
+
+Public Sub panel_Click()
+
+  Shell "xfce4-settings-manager"
+
+End
+
+
+Public Sub hardware_Click()
+
+  Shell "gnome-firmware"
+
+End

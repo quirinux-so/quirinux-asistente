@@ -1,0 +1,115 @@
+' Gambas class file
+
+
+
+Public Sub Programas_Click()
+
+  Shell "xfce4-popup-whiskermenu"
+
+End
+
+Public Sub Estilo_Click()
+
+  Shell "estilos"
+
+End
+
+Public Sub Conectar_a_internet_Click()
+
+  Redes.Show
+
+End
+
+Public Sub Label3_MouseDown()
+
+  Me.Close
+
+End
+
+
+
+Public Sub Plantillas_en_linea_Click()
+
+  Shell "firefox https://www.quirinux.org/plantillas"
+
+End
+
+Public Sub usuarios_Click()
+
+  Shell "usuarios"
+
+End
+
+Public Sub Opciones_avanzadas_Click()
+
+  avanzadas.Show
+
+End
+
+
+Public Sub Manual_en_linea_Click()
+
+  Shell "firefox https://www.quirinux.org/manuales-quirinux/"
+
+End
+
+Public Sub nomostrar_Click()
+
+If nomostrar.Value Then 
+  Shell "cp /usr/local/share/asistente/asistente.desktop /home/$(whoami)/.config/autostart/"
+  Else 
+    Shell "rm -f /home/$(whoami)/.config/autostart/asistente.desktop"
+Endif
+
+End
+
+
+Public Sub castellano_ar_Click()
+
+  es.Show
+
+End
+
+Public Sub deutsche_Click()
+
+  de.Show
+
+End
+
+Public Sub english_gb_Click()
+
+  engb.Show
+
+End
+
+Public Sub francais_Click()
+
+  fr.Show
+
+End
+
+Public Sub galego_Click()
+
+  gl.Show
+
+End
+
+Public Sub italiano_Click()
+
+  it.Show
+
+End
+
+Public Sub portugues_pt_Click()
+
+  pt.Show
+
+End
+
+
+Public Sub Recomendados_Click()
+
+  Shell "pkexec instalar-recomendados"
+  Me.Close
+  
+End

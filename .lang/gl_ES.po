@@ -1,0 +1,187 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: asistente 3.18.0\n"
+"PO-Revision-Date: 2024-05-21 03:03 UTC\n"
+"Last-Translator: charlie <charlie@estudio>\n"
+"Language: gl_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: de.form:117 engb.form:116 es.form:116 fr.form:116 gl.form:115 it.form:116 pt.form:116
+msgid "!"
+msgstr "!"
+
+#: Redes.form:66
+msgid "1. Clic derecho sobre el ícono de redes en el panel de Quirinux"
+msgstr "1. Fai clic co botón dereito na icona da rede no panel Quirinux"
+
+#: Redes.form:33
+msgid "2. Pulsa sobre Iniciar Wi-Fi"
+msgstr "2. Toca Iniciar Wi-Fi"
+
+#: Redes.form:42
+msgid "3. Presiona el botón \"Actualizar\"."
+msgstr "3. Prema o botón \"Actualizar\"."
+
+#: Redes.form:76
+msgid "Aceptar"
+msgstr "Aceptar"
+
+#: Redes.form:93
+msgid "A continuación se describen los pasos para iniciar una conexión inalámbrica:"
+msgstr "Os pasos para iniciar unha conexión sen fíos descríbense a continuación:"
+
+#: avanzadas.form:34
+msgid "Actualizar Quirinux"
+msgstr "Actualizar Quirinux"
+
+#: avanzadas.form:97
+msgid "Administrador de Energía"
+msgstr "Xestor de enerxía"
+
+#: FMain.form:111
+msgid " Asistente de Quirinux"
+msgstr "Mago de Quirinux"
+
+#: .project:2
+msgid "Atajos para aplicaciones de Quirinux GNU/Linux."
+msgstr "Atallos para aplicacións Quirinux GNU/Linux."
+
+#: FMain.form:206
+msgid "busca \"Asistente...\""
+msgstr "Busca \"Asistente...\""
+
+#: FMain.form:138
+msgid "Cambiar apariencia del escritorio"
+msgstr "Cambiar a aparencia do escritorio"
+
+#: gl.form:99
+msgid "Cancelar"
+msgstr "Cancelar"
+
+#: FMain.form:149
+msgid "Conectar a Internet"
+msgstr "Conéctate a Internet"
+
+#: Redes.form:104
+msgid " Conectar a internet vía WiFi"
+msgstr "Conéctese a Internet mediante Wi-Fi"
+
+#: FMain.form:175 avanzadas.form:26
+msgid "Configuración Avanzada"
+msgstr "Configuración avanzada"
+
+#: avanzadas.form:70
+msgid "Configurar Bluetooth"
+msgstr "Configura o Bluetooth"
+
+#: avanzadas.form:61
+msgid "Configurar Flatpak"
+msgstr "Configurar Flatpak"
+
+#: avanzadas.form:52
+msgid "Configurar GIMP"
+msgstr "Configurar GIMP"
+
+#: avanzadas.form:43
+msgid "Configurar repositorios"
+msgstr "Configurar repositorios"
+
+#: FMain.form:230
+msgid "Deutsche"
+msgstr ""
+
+#: avanzadas.form:79
+msgid "Eliminar componentes privativos"
+msgstr "Eliminar compoñentes propietarios"
+
+#: FMain.form:222
+msgid "English"
+msgstr ""
+
+#: FMain.form:166
+msgid "En modo vivo aparecerá de todas formas."
+msgstr "No modo en directo aparecerá igualmente."
+
+#: FMain.form:139
+msgid "Estilos"
+msgstr "Estilos"
+
+#: FMain.form:238
+msgid "Français"
+msgstr ""
+
+#: FMain.form:246
+msgid "Galego"
+msgstr ""
+
+#: FMain.form:46
+msgid "Idioma"
+msgstr "Lingua"
+
+#: FMain.form:129
+msgid "Iniciar programas"
+msgstr "iniciar programas"
+
+#: avanzadas.form:115
+msgid "Instalar controladores"
+msgstr "Instalar controladores"
+
+#: FMain.form:254
+msgid "Italiano"
+msgstr ""
+
+#: FMain.form:185
+msgid "Manual en línea"
+msgstr "Manual en liña"
+
+#: FMain.form:158
+msgid "Mostrar esta pantalla al inicio"
+msgstr "Mostra esta pantalla ao iniciar"
+
+#: avanzadas.form:106
+msgid "Panel de control"
+msgstr "Panel de control"
+
+#: FMain.form:120
+msgid "Plantillas en línea"
+msgstr "Modelos en liña"
+
+#: FMain.form:262
+msgid "Português"
+msgstr ""
+
+#: FMain.form:199
+msgid "Puedes acceder desde el botón Quirinux,"
+msgstr "Podes acceder desde o botón Quirinux."
+
+#: .project:1
+msgid "Quirinux"
+msgstr "Quirinux"
+
+#: FMain.form:119
+msgid "Requiere conexión a internet"
+msgstr "Require conexión a internet"
+
+#: Redes.form:83
+msgid "Selecciona la tuya, configura tu clave y listo."
+msgstr "Selecciona o teu, configura o teu contrasinal e listo."
+
+#: Redes.form:57
+msgid "Se mostrarán las redes disponibles."
+msgstr "Mostraranse as redes dispoñibles."
+
+#: Redes.form:24
+msgid "Si utilizas una conexión por cable ADSL, no necesitas más que enchufarlo."
+msgstr "Se usas unha conexión por cable ADSL, só tes que enchufala."
+
+#: FMain.form:277
+msgid "Software Adicional Recomendado"
+msgstr "Software Adicional Recomendado"
+
+#: avanzadas.form:88
+msgid "Usuarios, grupos y contraseñas"
+msgstr "Usuarios, grupos e contrasinais"
+

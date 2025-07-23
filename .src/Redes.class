@@ -1,0 +1,33 @@
+' Gambas class file
+
+
+Public Sub Label1_MouseDown()
+
+  
+
+End
+
+Public Sub TextArea3_KeyPress()
+
+  
+
+End
+
+Public Sub Aceptar_Click()
+
+  Me.close
+
+End
+
+
+Public Sub TextArea6_KeyPress()
+
+  
+
+End
+
+Public Sub Form_Open()
+
+  
+
+End

@@ -1,0 +1,269 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  Move(0,0,791,546)
+  #Scaled = False
+  Background = Color.White
+  NoTabFocus = True
+  Mask = True
+  Resizable = False
+  { Idioma Menu
+    Text = ("Idioma")
+    Visible = False
+    { es_AR Menu
+      #Translate = False
+      Action = "ar.Show"
+      Text = "Castellano (Argentina)"
+    }
+    { es_ES Menu
+      #Translate = False
+      Action = "es.Show"
+      Text = "Castellano (España)"
+    }
+    { de_DE Menu
+      #Translate = False
+      Action = "de.Show"
+      Text = "Deutsche"
+    }
+    { en_GB Menu
+      #Translate = False
+      Action = "engb.Show"
+      Text = "English (British)"
+    }
+    { en_US Menu
+      #Translate = False
+      Action = "us.Show"
+      Text = "English (USA)"
+    }
+    { fr_FR Menu
+      #Translate = False
+      Action = "fr.Show"
+      Text = "Français"
+    }
+    { gl_ES Menu
+      #Translate = False
+      Action = "gl.Show"
+      Text = "Galego"
+    }
+    { it_IT Menu
+      #Translate = False
+      Action = "it.Show"
+      Text = "Italiano"
+    }
+    { pt_BR Menu
+      #Translate = False
+      Action = "br.Show"
+      Text = "Português (Brasil)"
+    }
+    { pt_PT Menu
+      #Translate = False
+      Action = "pt.Show"
+      Text = "Português (Portugal)"
+    }
+  }
+  { LogoQuirinux PictureBox
+    Move(581,413,162,117)
+    Picture = Picture.Load("quirinux-rectangular.png")
+    Stretch = True
+  }
+  { Label1 Label
+    Move(42,0,812,70)
+    Font = Font["Ubuntu,+4"]
+    Background = &HE7DFFF
+    Foreground = Color.Black
+    Text = (" Asistente de Quirinux")
+  }
+  { Plantillas_en_linea Button
+    Move(504,203,245,42)
+    Font = Font["Ubuntu"]
+    Foreground = Color.Black
+    Mouse = Cursor.Pointing
+    ToolTip = ("Requiere conexión a internet")
+    Text = ("Plantillas en línea")
+    Picture = Picture["icon:/medium/copy"]
+  }
+  { Programas Button
+    Move(252,105,245,42)
+    Font = Font["Ubuntu"]
+    Foreground = Color.Black
+    Mouse = Cursor.Pointing
+    Text = ("Iniciar programas")
+    Picture = Picture["icon:/medium/play"]
+  }
+  { Estilo Button
+    Move(252,154,245,42)
+    Font = Font["Ubuntu"]
+    Foreground = Color.Black
+    Mouse = Cursor.Pointing
+    ToolTip = ("Cambiar apariencia del escritorio")
+    Text = ("Estilos")
+    Picture = Picture["icon:/medium/wizard"]
+  }
+  { Conectar_a_internet Button
+    Move(504,105,245,42)
+    Font = Font["Ubuntu"]
+    Foreground = Color.Black
+    Mouse = Cursor.Pointing
+    ToolTip = ("Requiere conexión a internet")
+    Text = ("Conectar a Internet")
+    Picture = Picture["icon:/medium/internet"]
+  }
+  { nomostrar CheckBox
+    Move(140,434,252,28)
+    Font = Font["Ubuntu"]
+    Foreground = Color.DarkGray
+    Mouse = Cursor.Pointing
+    Text = ("Mostrar esta pantalla al inicio")
+    Value = CheckBox.True
+  }
+  { Label2 Label
+    Move(140,462,477,18)
+    Font = Font["Ubuntu,Italic,-1"]
+    Foreground = &H4F5B80
+    Text = ("En modo vivo aparecerá de todas formas.")
+  }
+  { Opciones_avanzadas Button
+    Move(252,203,245,42)
+    Font = Font["Ubuntu"]
+    Foreground = Color.Black
+    Mouse = Cursor.Pointing
+    ToolTip = ("Requiere conexión a internet")
+    Text = ("Configuración Avanzada")
+    Picture = Picture["icon:/medium/options"]
+  }
+  { Manual_en_linea Button
+    Move(504,154,245,42)
+    Font = Font["Ubuntu"]
+    Foreground = Color.Black
+    Mouse = Cursor.Pointing
+    ToolTip = ("Requiere conexión a internet")
+    Text = ("Manual en línea")
+    Picture = Picture["icon:/medium/book"]
+  }
+  { PictureBox1 PictureBox
+    Move(28,77,210,308)
+    Picture = Picture.Load("QUIRINUX-PRO.png")
+    Stretch = True
+  }
+  { Label3 Label
+    Move(140,483,477,18)
+    Font = Font["Ubuntu,Italic,-1"]
+    Foreground = &H4F5B80
+    Text = ("Puedes acceder desde el botón Quirinux,")
+  }
+  { Label4 Label
+    Move(140,504,477,18)
+    Font = Font["Ubuntu,-1"]
+    Foreground = &H4F5B80
+    Text = ("busca \"Asistente...\"")
+  }
+  { castellano_ar Button
+    Move(364,322,98,28)
+    #Translate = False
+    Font = Font["Ubuntu"]
+    Foreground = &H2F5780
+    Mouse = Cursor.Pointing
+    Text = "Castellano"
+  }
+  { english_gb Button
+    Move(567,322,84,28)
+    Font = Font["Ubuntu"]
+    Foreground = &H2F5780
+    Mouse = Cursor.Pointing
+    Text = ("English")
+  }
+  { deutsche Button
+    Move(469,322,91,28)
+    Font = Font["Ubuntu"]
+    Foreground = &H2F5780
+    Mouse = Cursor.Pointing
+    Text = ("Deutsche")
+  }
+  { francais Button
+    Move(378,357,77,28)
+    Font = Font["Ubuntu"]
+    Foreground = &H2F5780
+    Mouse = Cursor.Pointing
+    Text = ("Français")
+  }
+  { galego Button
+    Move(462,357,56,28)
+    Font = Font["Ubuntu"]
+    Foreground = &H2F5780
+    Mouse = Cursor.Pointing
+    Text = ("Galego")
+  }
+  { italiano Button
+    Move(525,357,84,28)
+    Font = Font["Ubuntu"]
+    Foreground = &H2F5780
+    Mouse = Cursor.Pointing
+    Text = ("Italiano")
+  }
+  { portugues_pt Button
+    Move(616,357,112,28)
+    Font = Font["Ubuntu"]
+    Foreground = &H2F5780
+    Mouse = Cursor.Pointing
+    Text = ("Português")
+  }
+  { Idiomas PictureBox
+    Move(273,322,70,56)
+    Picture = Picture.Load("lenguaje.png")
+    Stretch = True
+  }
+  { Recomendados Button
+    Move(252,252,497,42)
+    Font = Font["Ubuntu"]
+    Foreground = Color.Black
+    Mouse = Cursor.Pointing
+    ToolTip = ("Requiere conexión a internet")
+    Text = ("Software Adicional Recomendado")
+    Picture = Picture["icon:/medium/star"]
+  }
+}
+
+# Gambas Action File 3.0
+
+{ Actions
+  { Action ar.Show
+    Text = "Castellano (Argentina)"
+    Shortcut = ""
+  }
+  { Action br.Show
+    Text = "Português (Brasil)"
+    Shortcut = ""
+  }
+  { Action de.Show
+    Text = "Deutsche"
+    Shortcut = ""
+  }
+  { Action engb.Show
+    Text = "English (British)"
+    Shortcut = ""
+  }
+  { Action es.Show
+    Text = "Castellano (España)"
+    Shortcut = ""
+  }
+  { Action fr.Show
+    Text = "Français"
+    Shortcut = ""
+  }
+  { Action gl.Show
+    Text = "Galego"
+    Shortcut = ""
+  }
+  { Action it.Show
+    Text = "Italiano"
+    Shortcut = ""
+  }
+  { Action pt.Show
+    Text = "Português (Portugal)"
+    Shortcut = ""
+  }
+  { Action us.Show
+    Text = "English (USA)"
+    Shortcut = ""
+  }
+}

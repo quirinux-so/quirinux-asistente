@@ -1,0 +1,23 @@
+# Gambas Project File 3.0
+Title=Quirinux
+Startup=FMain
+Version=0.0.56
+Component=gb.image
+Component=gb.gui.qt
+Component=gb.form
+Description="Atajos para aplicaciones de Quirinux GNU/Linux."
+TabSize=2
+Translate=1
+Language=es
+SourcePath=/home/charlie/Escritorio
+Maintainer=Charlie Martinez
+Address=cmartinez@quirinux.org
+Url=https://www.quirinux.org
+License=General Public License
+PackageName=asistente-0.0.27
+Packager=1
+Systems=debian
+Menus=debian:"Applications/System/Administration"
+Categories=debian:"System"
+Groups=debian:"utils"
+ExtraDependencies=debian:"qxlogout\t\t\nautologin\t\t\nestilos\t\t\nusuarios\t\t\ngambas3-runtime\t\t\ngambas3-gb-form\t\t\ngambas3-gb-form-stock\t\t\ngambas3-gb-image\t\t\nusermode\t\t\ngnome-system-tools\t\t\ngambas3-gb-gui-qt\t\t\ngambas3-gb-gui\t\t\ngambas3-gb-qt5\t\t\ngambas3-gb-gui-qt-webkit\t\t\ngambas3-gb-qt5\t\t\ngambas3-gb-qt5-ext\t\t\ngambas3-gb-qt5-opengl\t\t\ngambas3-gb-qt5-webkit\t\t\n\t\t"

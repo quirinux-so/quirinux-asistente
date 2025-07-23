@@ -1,0 +1,85 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  Move(0,0,791,546)
+  #Scaled = False
+  Background = Color.White
+  Resizable = False
+  { TextArea2 TextArea
+    Move(84,105,693,28)
+    Font = Font["Ubuntu"]
+    Background = Color.White
+    Text = ("Si utilizas una conexión por cable ADSL, no necesitas más que enchufarlo.")
+    ReadOnly = True
+    Wrap = True
+    Border = False
+  }
+  { TextArea3 TextArea
+    Move(350,252,378,35)
+    Font = Font["Ubuntu"]
+    Text = ("2. Pulsa sobre Iniciar Wi-Fi")
+    ReadOnly = True
+    Wrap = True
+    Border = False
+  }
+  { TextArea4 TextArea
+    Move(350,287,378,35)
+    Font = Font["Ubuntu"]
+    Text = ("3. Presiona el botón \"Actualizar\".")
+    ReadOnly = True
+    Wrap = True
+    Border = False
+  }
+  { PictureBox2 PictureBox
+    Move(84,210,231,175)
+    Background = Color.White
+    Picture = Picture.Load("barra-wifi.png")
+  }
+  { TextArea5 TextArea
+    Move(350,322,378,35)
+    Font = Font["Ubuntu"]
+    Text = ("Se mostrarán las redes disponibles.")
+    ReadOnly = True
+    Wrap = True
+    Border = False
+  }
+  { TextArea6 TextArea
+    Move(350,217,546,28)
+    Font = Font["Ubuntu"]
+    Text = ("1. Clic derecho sobre el ícono de redes en el panel de Quirinux")
+    ReadOnly = True
+    Wrap = True
+    Border = False
+  }
+  { Aceptar Button
+    Move(483,455,161,35)
+    Font = Font["Ubuntu"]
+    Mouse = Cursor.Pointing
+    Text = ("Aceptar")
+    Picture = Picture["icon:/32/apply"]
+  }
+  { TextArea1 TextArea
+    Move(350,357,378,35)
+    Font = Font["Ubuntu"]
+    Text = ("Selecciona la tuya, configura tu clave y listo.")
+    ReadOnly = True
+    Wrap = True
+    Border = False
+  }
+  { TextArea7 TextArea
+    Move(84,140,693,28)
+    Font = Font["Ubuntu"]
+    Background = Color.White
+    Text = ("A continuación se describen los pasos para iniciar una conexión inalámbrica:")
+    ReadOnly = True
+    Wrap = True
+    Border = False
+  }
+  { Label1 Label
+    Move(63,0,868,70)
+    Font = Font["Ubuntu,+4"]
+    Background = &HE7DFFF
+    Foreground = Color.Black
+    Text = (" Conectar a internet vía WiFi")
+  }
+}
