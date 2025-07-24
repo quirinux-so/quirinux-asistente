@@ -1,11 +1,9 @@
 
-<img width="64" height="64" alt="notify" src="https://github.com/user-attachments/assets/dc2c2a9a-1cc2-45e0-b586-60485f25ad2a" />
-
-# Quirinux Asistente
+# <img width="32" alt="notify" src="https://github.com/user-attachments/assets/dc2c2a9a-1cc2-45e0-b586-60485f25ad2a" /> Quirinux Asistente
 
 (c) Charlie Martínez – Quirinux GNU/Linux, GPLv2  
 
-![quirinux-asistente](https://github.com/user-attachments/assets/15d9724b-ce1e-4c29-b7eb-09de46151150)
+<img width="450" height="327" alt="imagen" src="https://github.com/user-attachments/assets/65cb4b12-12ea-47e5-af43-b183e39920f1" />
 
 ## 🇪🇸 Español  
 **Quirinux Asistente** es una aplicación gráfica escrita en Gambas3 que actúa como pantalla de bienvenida configurable, proporcionando acceso rápido a funciones clave del sistema, herramientas útiles y ajustes personalizados.  
