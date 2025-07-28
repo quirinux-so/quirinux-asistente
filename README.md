@@ -1,87 +1,88 @@
+# Quirinux Asistente
 
-# <img width="32" alt="notify" src="https://github.com/user-attachments/assets/dc2c2a9a-1cc2-45e0-b586-60485f25ad2a" /> Quirinux Asistente
+**Autor / Author:** Charlie Martínez – Quirinux GNU/Linux®  
+**Licencia / License:** GPLv2.0
 
-(c) Charlie Martínez – Quirinux GNU/Linux, GPLv2  
-
-<img width="450" height="327" alt="imagen" src="https://github.com/user-attachments/assets/65cb4b12-12ea-47e5-af43-b183e39920f1" />
-
-## 🇪🇸 Español  
-**Quirinux Asistente** es una aplicación gráfica escrita en Gambas3 que actúa como pantalla de bienvenida configurable, proporcionando acceso rápido a funciones clave del sistema, herramientas útiles y ajustes personalizados.  
-
-Se trata de un **componente esencial del sistema Quirinux**, diseñado exclusivamente para esta distribución. Su ejecución en otros entornos GNU/Linux no está garantizada sin adaptaciones específicas.  
-
-✅ Características:
-
-- Interfaz inicial amigable con botones de acceso rápido  
-- Cambio de idioma del sistema (sin reinicio completo)  
-- Compatible con Español, Inglés, Alemán, Francés, Italiano, Portugués y Gallego  
-- Cambio de estilo visual (apariencia del entorno)  
-- Lanzador de aplicaciones útiles  
-- Instalación de software adicional recomendado  
-- Acceso directo a conexión de red, documentación en línea y plantillas  
-- Herramientas de configuración avanzada del sistema  
-- Escrita en Gambas3, ligera y eficiente  
-
-🔧 Requisitos (solo para desarrollo o pruebas en entornos compatibles):
-
-```bash
-su root
-apt install gambas3
-```
-Requiere compilar desde Gambas3
-
-Binario disponible desde el **Centro de Software de Quirinux**.  
-🔗 https://repo.quirinux.org/pool/main/q/quirinux-asistente
-
-### ⚠️ Aviso legal  
-Este proyecto forma parte del sistema base de **Quirinux** y **no está diseñado para funcionar en otras distribuciones** sin modificaciones técnicas importantes.  
-
-Publicado bajo licencia **GPLv2**.  
-
-Autor: Charlie Martinez <cmartinez@quirinux.org>
-
-ℹ️ Más información:  
-🔗 [https://www.quirinux.org/aviso-legal](https://www.quirinux.org/aviso-legal)
+![Quirinux Asistente Screenshot](https://github.com/user-attachments/assets/65cb4b12-12ea-47e5-af43-b183e39920f1)
 
 ---
 
-## 🇬🇧 English  
-**Quirinux Asistente** is a graphical welcome screen written in Gambas3, offering quick access to key tools, configuration, and system resources.  
+## 🧭 Descripción general / Overview
 
-This is a **core component of the Quirinux system**, developed exclusively for this distribution. It is **not designed to run on other GNU/Linux systems** without technical adaptations.  
+**ES:**  
+`Quirinux Asistente` es una aplicación gráfica escrita en **Gambas3** que actúa como pantalla de bienvenida configurable, ofreciendo acceso rápido a herramientas clave del sistema, configuraciones útiles y enlaces a recursos.  
 
-✅ Features:
+Es un **componente esencial del sistema Quirinux**, desarrollado exclusivamente para esta distribución. Su ejecución en otros entornos GNU/Linux no está garantizada sin adaptaciones específicas.
 
+**EN:**  
+`Quirinux Asistente` is a graphical welcome screen written in **Gambas3**, providing quick access to system tools, configurations, and useful resources.  
+
+It is a **core component of the Quirinux system**, developed exclusively for this distribution. Running it on other GNU/Linux environments is not guaranteed without specific adaptations.
+
+---
+
+## ✔️ Características / Features
+
+**ES:**
+- Interfaz inicial amigable con botones de acceso rápido  
+- Cambio de idioma del sistema sin reinicio completo  
+- Compatible con Español, Inglés, Alemán, Francés, Italiano, Portugués y Gallego  
+- Selector de apariencia / estilo visual del entorno  
+- Lanzador de aplicaciones frecuentes  
+- Instalación guiada de software adicional recomendado  
+- Acceso rápido a redes, documentación en línea y plantillas  
+- Herramientas avanzadas de configuración del sistema  
+- Escrita en Gambas3: ligera y eficiente
+
+**EN:**
 - Friendly welcome interface with quick-access buttons  
-- Change system language (no full reboot required)  
-- Supports Spanish, English, German, French, Italian, Portuguese and Galician  
-- Visual style/theme selector  
+- Change system language without full reboot  
+- Supports Spanish, English, German, French, Italian, Portuguese, Galician  
+- Visual theme/style selector  
 - Launch common applications  
-- Install recommended additional software  
-- Access network help, online docs, and templates  
+- Guided installation of recommended additional software  
+- Quick access to network settings, online docs, and templates  
 - Advanced system configuration tools  
-- Written in Gambas3 — lightweight and efficient  
+- Written in Gambas3: lightweight and efficient
 
-🔧 Requirements (for testing outside Quirinux):
+---
+
+## 📋 Requisitos / Requirements
+
+**ES / EN:**  
+Solo necesarios para desarrollo o pruebas en otros entornos / Required only for development or testing in non-Quirinux environments:
 
 ```bash
 su root
 apt install gambas3
 ```
 
-▶️ Run the application (unofficial use only):
+**Nota:** requiere ser compilado desde Gambas3.
 
-Requires compiling with Gambas3.
+---
 
-Binary available from the **Quirinux Software Center**.  
-🔗 https://repo.quirinux.org/pool/main/q/quirinux-asistente
+## ▶️ Ejecución / How to Run
 
-### ⚠️ Legal notice  
-This is a **core system component** of **Quirinux**, and **not intended for use on other distributions** without significant technical changes.  
+**ES / EN:**  
+Compilar desde Gambas3. Solo para uso no oficial fuera de Quirinux.  
 
-Released under the **GPLv2 license**.  
+**Binario disponible desde el Centro de Software de Quirinux / Binary available from Quirinux Software Center:**  
+[https://repo.quirinux.org/pool/main/q/quirinux-asistente](https://repo.quirinux.org/pool/main/q/quirinux-asistente)
 
-Author: Charlie Martinez <cmartinez@quirinux.org>
+---
 
-ℹ️ More info:  
-🔗 [https://www.quirinux.org/aviso-legal](https://www.quirinux.org/aviso-legal)
+## ⚖️ Aviso legal / Legal Notice
+
+**ES:**  
+Este proyecto forma parte del sistema base de **Quirinux** y **no está diseñado para funcionar en otras distribuciones** sin modificaciones técnicas importantes.  
+Distribuido bajo los términos de la licencia **GPLv2**.
+
+**EN:**  
+This project is part of the **Quirinux base system** and **is not intended for use on other distributions** without significant technical changes.  
+Released under the terms of the **GPLv2 license**.
+
+**Autor / Author:** Charlie Martínez  
+📧 <cmartinez@quirinux.org>
+
+**Más información / More information:**  
+[https://www.quirinux.org/aviso-legal](https://www.quirinux.org/aviso-legal)
