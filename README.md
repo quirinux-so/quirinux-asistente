@@ -49,17 +49,15 @@ It is a **core component of the Quirinux system**, developed exclusively for thi
 
 ---
 
-## 📋 Requisitos / Requirements
+## 📋 Dependencias / Depends
 
-**ES / EN:**  
-Solo necesarios para desarrollo o pruebas en otros entornos / Required only for development or testing in non-Quirinux environments:
+gambas3-gb-term, gambas3-gb-form-terminal, gambas3-gb-form-terminal, gambas3-gb-jit, quirinux-recomendados, gambas3-runtime, gambas3-runtime, gambas3-gb-image, gambas3-gb-image, gambas3-gb-form, gambas3-gb-form, crealib-libersys, gimp-quirinux, quirinux-estilos, quirinux-bluconfig, quirinux-usuarios, flatpakconfig, gnome-firmware, qxlogout, quirinux-temas, xfce4-panel-profiles, xfce4-theme-switcher, software-properties-gtk, gambas3-gb-qt5, gambas3-gb-qt5-x11, package-update-indicator, gnome-packagekit, unattended-upgrades, quirinux-notify, quirinux-apteditor, quirinux-conky
 
-```bash
-su root
-apt install gambas3
-```
+Disponibles en / Availables on:
 
-**Nota:** requiere ser compilado desde Gambas3.
+-[http://deb.devuan.org/merged/dists/daedalus/main/](http://deb.devuan.org/merged/dists/daedalus/main/)
+
+-[https://repo.quirinux.org/pool/main](https://repo.quirinux.org/pool/main/)
 
 ---
 
