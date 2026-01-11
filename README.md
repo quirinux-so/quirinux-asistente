@@ -3,9 +3,9 @@
 **Autor / Author:** Charlie Martínez – Quirinux GNU/Linux®  
 **Licencia / License:** GPLv2.0
 
-![Quirinux Asistente Screenshot](https://github.com/user-attachments/assets/65cb4b12-12ea-47e5-af43-b183e39920f1)
+![quirinux-asistente-captura](https://github.com/user-attachments/assets/389113be-c68d-4af2-b5d6-711e3e566832)
 
-![Contributors](https://img.shields.io/github/contributors/quirinux-so/quirinux-asistente) ![Stars](https://img.shields.io/github/stars/quirinux-so/quirinux-asistente) ![Forks](https://img.shields.io/github/forks/quirinux-so/quirinux-asistente) ![Issues](https://img.shields.io/github/issues/quirinux-so/quirinux-asistente) ![Last Commit](https://img.shields.io/github/last-commit/quirinux-so/quirinux-asistente) ![Activity](https://img.shields.io/github/commit-activity/m/quirinux-so/quirinux-asistente) ![Repo Size](https://img.shields.io/github/repo-size/quirinux-so/quirinux-asistente) ![Lenguaje](https://img.shields.io/badge/Lenguaje-Gambas-blue)
+![Contributors](https://img.shields.io/github/contributors/quirinux-so/quirinux-asistente) ![Stars](https://img.shields.io/github/stars/quirinux-so/quirinux-asistente) ![Forks](https://img.shields.io/github/forks/quirinux-so/quirinux-asistente) ![Issues](https://img.shields.io/github/issues/quirinux-so/quirinux-asistente) ![Last Commit](https://img.shields.io/github/last-commit/quirinux-so/quirinux-asistente)  ![Repo Size](https://img.shields.io/github/repo-size/quirinux-so/quirinux-asistente) ![Lenguaje](https://img.shields.io/badge/Lenguaje-Gambas-blue)
 
 ---
 
