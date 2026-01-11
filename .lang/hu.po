@@ -1,0 +1,199 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: quirinux-asistente_1.1.2_CODIGO 3.18.0\n"
+"PO-Revision-Date: 2026-01-04 16:59 UTC\n"
+"Last-Translator: charlie <charlie@estudio>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: de.form:117 engb.form:116 es.form:116 fr.form:116 gl.form:115 hu.form:116 it.form:116 pt.form:116 ru.form:116
+msgid "!"
+msgstr ""
+
+#: Redes.form:66
+msgid "1. Clic derecho sobre el ícono de redes en el panel de Quirinux"
+msgstr "1. Kattintson jobb gombbal a hálózat ikonra a Quirinux panelen"
+
+#: Redes.form:33
+msgid "2. Pulsa sobre Iniciar Wi-Fi"
+msgstr "2. Kattintson a Wi-Fi indítása lehetőségre"
+
+#: Redes.form:42
+msgid "3. Presiona el botón \"Actualizar\"."
+msgstr "3. Nyomja meg a gombot\"Frissítés\"."
+
+#: Redes.form:76
+msgid "Aceptar"
+msgstr "Elfogadás"
+
+#: Redes.form:93
+msgid "A continuación se describen los pasos para iniciar una conexión inalámbrica:"
+msgstr "Az alábbiakban a vezeték nélküli kapcsolat létrehozásának lépései láthatók:"
+
+#: avanzadas.form:34
+msgid "Actualizar Quirinux"
+msgstr "Quirinux frissítése"
+
+#: avanzadas.form:97
+msgid "Administrador de Energía"
+msgstr "Energiakezelő"
+
+#: FMain.form:114
+msgid " Asistente de Quirinux"
+msgstr "Quirinux asszisztens"
+
+#: .project:2
+msgid "Atajos para aplicaciones de Quirinux GNU/Linux."
+msgstr "Parancsikonok a Quirinux GNU/Linux alkalmazásaihoz."
+
+#: FMain.form:208
+msgid "busca \"Asistente...\""
+msgstr "keresse meg: \"Asszisztens…\""
+
+#: FMain.form:141
+msgid "Cambiar apariencia del escritorio"
+msgstr "Az asztal megjelenésének módosítása"
+
+#: gl.form:99
+msgid "Cancelar"
+msgstr "Mégse"
+
+#: FMain.form:305
+msgid "Centro de software"
+msgstr "Szoftverközpont"
+
+#: FMain.form:152
+msgid "Conectar a Internet"
+msgstr "Csatlakozás az internethez"
+
+#: Redes.form:104
+msgid " Conectar a internet vía WiFi"
+msgstr " Internetkapcsolat Wi-Fi-n keresztül"
+
+#: FMain.form:177 avanzadas.form:26
+msgid "Configuración Avanzada"
+msgstr "Speciális beállítások"
+
+#: avanzadas.form:70
+msgid "Configurar Bluetooth"
+msgstr "Bluetooth beállítása"
+
+#: avanzadas.form:61
+msgid "Configurar Flatpak"
+msgstr "Flatpak beállítása"
+
+#: avanzadas.form:52
+msgid "Configurar GIMP"
+msgstr "GIMP beállítása"
+
+#: avanzadas.form:43
+msgid "Configurar repositorios"
+msgstr "Tárolók beállítása"
+
+#: FMain.form:232
+msgid "Deutsche"
+msgstr ""
+
+#: avanzadas.form:79
+msgid "Eliminar componentes privativos"
+msgstr "Zárt forrású összetevők eltávolítása"
+
+#: FMain.form:224
+msgid "English"
+msgstr ""
+
+#: FMain.form:169
+msgid "En modo vivo aparecerá de todas formas."
+msgstr "Live módban mindenképpen megjelenik."
+
+#: FMain.form:142
+msgid "Estilos"
+msgstr "Stílusok"
+
+#: FMain.form:240
+msgid "Français"
+msgstr ""
+
+#: FMain.form:248
+msgid "Galego"
+msgstr ""
+
+#: FMain.form:49
+msgid "Idioma"
+msgstr "Nyelv"
+
+#: FMain.form:132
+msgid "Iniciar programas"
+msgstr "Programok indítása"
+
+#: avanzadas.form:115
+msgid "Instalar controladores"
+msgstr "Illesztőprogramok telepítése"
+
+#: FMain.form:256
+msgid "Italiano"
+msgstr ""
+
+#: FMain.form:296
+msgid "Magyar"
+msgstr ""
+
+#: FMain.form:187
+msgid "Manual en línea"
+msgstr "Online kézikönyv"
+
+#: FMain.form:161
+msgid "Mostrar esta pantalla al inicio"
+msgstr "Képernyő megjelenítése indításkor"
+
+#: avanzadas.form:106
+msgid "Panel de control"
+msgstr "Vezérlőpult"
+
+#: FMain.form:123
+msgid "Plantillas en línea"
+msgstr "Online sablonok"
+
+#: FMain.form:264
+msgid "Português"
+msgstr ""
+
+#: FMain.form:201
+msgid "Puedes acceder desde el botón Quirinux,"
+msgstr "Elérheti a Quirinux gomb segítségével,"
+
+#: .project:1
+msgid "Quirinux"
+msgstr ""
+
+#: FMain.form:122
+msgid "Requiere conexión a internet"
+msgstr "Internetkapcsolat szükséges"
+
+#: Redes.form:83
+msgid "Selecciona la tuya, configura tu clave y listo."
+msgstr "Válassza ki a hálózatot, adja meg a jelszót, és kész."
+
+#: Redes.form:57
+msgid "Se mostrarán las redes disponibles."
+msgstr "Megjelennek az elérhető hálózatok."
+
+#: Redes.form:24
+msgid "Si utilizas una conexión por cable ADSL, no necesitas más que enchufarlo."
+msgstr "Ha vezetékes ADSL kapcsolatot használ, csak csatlakoztatnia kell."
+
+#: FMain.form:279
+msgid "Software Adicional Recomendado"
+msgstr "Ajánlott kiegészítő szoftverek"
+
+#: avanzadas.form:88
+msgid "Usuarios, grupos y contraseñas"
+msgstr "Felhasználók, csoportok és jelszavak"
+
+#: FMain.form:288
+msgid "Русский"
+msgstr ""
+

@@ -1,78 +1,78 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: asistente 3.18.0\n"
+"Project-Id-Version: quirinux-asistente_1.1.2_CODIGO 3.18.0\n"
 "POT-Creation-Date: 2026-01-04 14:40 UTC\n"
-"PO-Revision-Date: 2024-05-21 03:02 UTC\n"
+"PO-Revision-Date: 2026-01-04 16:21 UTC\n"
 "Last-Translator: charlie <charlie@estudio>\n"
-"Language: fr\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: .project:1
 msgid "Quirinux"
-msgstr "Quirinux"
+msgstr ""
 
 #: .project:2
 msgid "Atajos para aplicaciones de Quirinux GNU/Linux."
-msgstr "Raccourcis pour les applications Quirinux GNU/Linux."
+msgstr "Ярлыки для приложений Quirinux GNU/Linux."
 
 #: FMain.form:49
 msgid "Idioma"
-msgstr "Langage"
+msgstr "Язык"
 
 #: FMain.form:114
 msgid " Asistente de Quirinux"
-msgstr " Assistant Quirinux"
+msgstr "Помощник Quirinux"
 
 #: FMain.form:122
 msgid "Requiere conexión a internet"
-msgstr "Nécessite une connexion Internet"
+msgstr "Требуется подключение к интернету"
 
 #: FMain.form:123
 msgid "Plantillas en línea"
-msgstr "Modèles en ligne"
+msgstr "Онлайн-шаблоны"
 
 #: FMain.form:132
 msgid "Iniciar programas"
-msgstr "Démarrer des programmes"
+msgstr "Запуск программ"
 
 #: FMain.form:141
 msgid "Cambiar apariencia del escritorio"
-msgstr "Changer l'apparence du bureau"
+msgstr "Изменить внешний вид рабочего стола"
 
 #: FMain.form:142
 msgid "Estilos"
-msgstr "Styles"
+msgstr "Стили"
 
 #: FMain.form:152
 msgid "Conectar a Internet"
-msgstr "Connecter à Internet"
+msgstr "Подключиться к интернету"
 
 #: FMain.form:161
 msgid "Mostrar esta pantalla al inicio"
-msgstr "Afficher cet écran au démarrage"
+msgstr "Показывать этот экран при запуске"
 
 #: FMain.form:169
 msgid "En modo vivo aparecerá de todas formas."
-msgstr "En mode direct, il apparaîtra de toute façon."
+msgstr "В живом режиме будет отображаться в любом случае."
 
 #: FMain.form:177 avanzadas.form:26
 msgid "Configuración Avanzada"
-msgstr "Paramètres avancés"
+msgstr "Расширенные настройки"
 
 #: FMain.form:187
 msgid "Manual en línea"
-msgstr "Manuel en ligne"
+msgstr "Онлайн-руководство"
 
 #: FMain.form:201
 msgid "Puedes acceder desde el botón Quirinux,"
-msgstr "Vous pouvez y accéder depuis le bouton Quirinux."
+msgstr "Вы можете получить доступ через кнопку Quirinux,"
 
 #: FMain.form:208
 msgid "busca \"Asistente...\""
-msgstr "Recherche \"Assistant...\""
+msgstr "найдите \"Ассистент…\""
 
 #: FMain.form:224
 msgid "English"
@@ -100,7 +100,7 @@ msgstr ""
 
 #: FMain.form:279
 msgid "Software Adicional Recomendado"
-msgstr "Logiciels Supplémentaires Recommandés"
+msgstr "Рекомендуемое дополнительное ПО"
 
 #: FMain.form:288
 msgid "Русский"
@@ -112,89 +112,89 @@ msgstr ""
 
 #: FMain.form:305
 msgid "Centro de software"
-msgstr ""
+msgstr "Центр программного обеспечения"
 
 #: Redes.form:24
 msgid "Si utilizas una conexión por cable ADSL, no necesitas más que enchufarlo."
-msgstr "Si vous utilisez une connexion par câble ADSL, il vous suffit de la brancher."
+msgstr "Если вы используете проводное ADSL-соединение, достаточно просто подключить кабель."
 
 #: Redes.form:33
 msgid "2. Pulsa sobre Iniciar Wi-Fi"
-msgstr "2. Appuyez sur Démarrer Wi-Fi"
+msgstr "2. Нажмите «Включить Wi-Fi"
 
 #: Redes.form:42
 msgid "3. Presiona el botón \"Actualizar\"."
-msgstr "3. Appuyez sur le bouton \"Mettre à jour\"."
+msgstr "3. Нажмите кнопку \"Обновить\"."
 
 #: Redes.form:57
 msgid "Se mostrarán las redes disponibles."
-msgstr "Les réseaux disponibles seront affichés."
+msgstr "Будут показаны доступные сети."
 
 #: Redes.form:66
 msgid "1. Clic derecho sobre el ícono de redes en el panel de Quirinux"
-msgstr "1. Faites un clic droit sur l'icône du réseau dans le panneau Quirinux"
+msgstr "1. Щёлкните правой кнопкой мыши по значку сети на панели Quirinux"
 
 #: Redes.form:76
 msgid "Aceptar"
-msgstr "Accepter"
+msgstr "Принять"
 
 #: Redes.form:83
 msgid "Selecciona la tuya, configura tu clave y listo."
-msgstr "Sélectionnez le vôtre, configurez votre mot de passe et c'est tout."
+msgstr "Выберите свою сеть, настройте пароль — и готово."
 
 #: Redes.form:93
 msgid "A continuación se describen los pasos para iniciar una conexión inalámbrica:"
-msgstr "Les étapes pour démarrer une connexion sans fil sont décrites ci-dessous :"
+msgstr "Ниже описаны шаги для подключения к беспроводной сети:"
 
 #: Redes.form:104
 msgid " Conectar a internet vía WiFi"
-msgstr "Connectez-vous à Internet via Wi-Fi"
+msgstr "Подключение к интернету через Wi-Fi"
 
 #: avanzadas.form:34
 msgid "Actualizar Quirinux"
-msgstr "Mettre à jour Quirinux"
+msgstr "Обновить Quirinux"
 
 #: avanzadas.form:43
 msgid "Configurar repositorios"
-msgstr "Configurer les référentiels"
+msgstr "Настроить репозитории"
 
 #: avanzadas.form:52
 msgid "Configurar GIMP"
-msgstr "Configurer GIMP"
+msgstr "Настроить GIMP"
 
 #: avanzadas.form:61
 msgid "Configurar Flatpak"
-msgstr "Configurer Flatpak"
+msgstr "Настроить Flatpak"
 
 #: avanzadas.form:70
 msgid "Configurar Bluetooth"
-msgstr "Configurer Bluetooth"
+msgstr "Настроить Bluetooth"
 
 #: avanzadas.form:79
 msgid "Eliminar componentes privativos"
-msgstr "Supprimer les composants propriétaires"
+msgstr "Удалить проприетарные компоненты"
 
 #: avanzadas.form:88
 msgid "Usuarios, grupos y contraseñas"
-msgstr "Utilisateurs, groupes et mots de passe"
+msgstr "Пользователи, группы и паролиРекомендуемое дополнительное ПО"
 
 #: avanzadas.form:97
 msgid "Administrador de Energía"
-msgstr "Gestionnaire d'énergie"
+msgstr "Диспетчер питания"
 
 #: avanzadas.form:106
 msgid "Panel de control"
-msgstr "Panneau de commande"
+msgstr "Панель управления"
 
 #: avanzadas.form:115
 msgid "Instalar controladores"
-msgstr "Installer les pilotes"
+msgstr "Установить драйверы"
 
 #: de.form:117 engb.form:116 es.form:116 fr.form:116 gl.form:115 hu.form:116
 #: it.form:116 pt.form:116 ru.form:116
 msgid "!"
-msgstr "!"
+msgstr ""
 
 #: gl.form:99
 msgid "Cancelar"
-msgstr "Annuler"
+msgstr "Отмена"
