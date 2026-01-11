@@ -1,0 +1,107 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  Move(0,0,513,358)
+  #Scaled = False
+  #Translate = False
+  Background = &HFFFFFF
+  Resizable = False
+  Border = False
+  { Label1 Label
+    Move(49,0,616,56)
+    #Translate = False
+    Font = Font["+4"]
+    Background = &HDFF7FF
+    Foreground = Color.Red
+    Text = " Atención"
+  }
+  { TextArea1 TextArea
+    Move(84,84,378,70)
+    #Translate = False
+    Font = Font["Ubuntu"]
+    Background = &HFFFFFF
+    Text = "A nyelv megváltoztatásához meg kell adnia a felhasználónevet és a jelszót. A Quirinux USB-s telepítő pendrive esetén ezek az adatok a következők:"
+    ReadOnly = True
+    Wrap = True
+    Border = False
+  }
+  { TextArea2 TextArea
+    Move(259,147,203,28)
+    #Translate = False
+    Font = Font["Ubuntu,Bold"]
+    Background = &HFFFFFF
+    Foreground = Color.SelectedBackground
+    Text = "quirinux"
+    Alignment = Align.Left
+    ReadOnly = True
+    Wrap = True
+    Border = False
+  }
+  { TextArea3 TextArea
+    Move(84,210,378,70)
+    #Translate = False
+    Font = Font["Ubuntu"]
+    Background = &HFFFFFF
+    Text = "Ha a Quirinux a merevlemezre van telepítve, használja a saját adatait, és ha egy másik személy számítógépén dolgozik, forduljon a rendszergazdához."
+    ReadOnly = True
+    Wrap = True
+    Border = False
+  }
+  { TextArea4 TextArea
+    Move(259,175,203,28)
+    #Translate = False
+    Font = Font["Ubuntu,Bold"]
+    Background = &HFFFFFF
+    Foreground = Color.SelectedBackground
+    Text = "quirinux"
+    Alignment = Align.Left
+    ReadOnly = True
+    Wrap = True
+    Border = False
+  }
+  { TextArea5 TextArea
+    Move(84,147,175,28)
+    #Translate = False
+    Font = Font["Ubuntu,Bold"]
+    Background = &HFFFFFF
+    Text = "Felhasználónév:"
+    Alignment = Align.Right
+    ReadOnly = True
+    Wrap = True
+    Border = False
+  }
+  { TextArea6 TextArea
+    Move(84,175,175,28)
+    #Translate = False
+    Font = Font["Ubuntu,Bold"]
+    Background = &HFFFFFF
+    Text = "Jelszó:"
+    Alignment = Align.Right
+    ReadOnly = True
+    Wrap = True
+    Border = False
+  }
+  { Cancelar Button
+    Move(273,301,140,35)
+    #Translate = False
+    Font = Font["Ubuntu"]
+    Background = &HFF9F9F
+    Mouse = Cursor.Pointing
+    Text = "Mégse"
+  }
+  { Traducir Button
+    Move(119,301,140,35)
+    #Translate = False
+    Font = Font["Ubuntu"]
+    Background = &HCFFF9F
+    Mouse = Cursor.Pointing
+    Text = "Fordítás"
+    Picture = Picture["icon:/32/apply"]
+  }
+  { Label2 Label
+    Move(455,0,35,49)
+    Font = Font["Blue Highway D Type,Bold,Italic,+10"]
+    Foreground = Color.Red
+    Text = ("!")
+  }
+}

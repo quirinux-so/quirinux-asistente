@@ -1,23 +1,21 @@
 ' Gambas class file
 
+' ======================================================================
+' Archivo:       de.class
+' Ruta:          .src
+' Autor:         Charlie Martínez® <cmartinez@quirinux.org>
+' Licencia:      https://www.gnu.org/licenses/gpl-2.0.txt
+' Propósito:     Pantalla de información sobre cambio de idioma a francés
+' Distribución:  Quirinux 2.x
+' ======================================================================
 
-Public Sub Label2_MouseDown()
+'
+' Copyright (c) 2019-2025 Charlie Martínez, derechos reservados.
+' Licencia: https://www.gnu.org/licenses/gpl-2.0.txt
+' Usos autorizados y no autorizados de la marca Quirinux:
+' Ver https://www.quirinux.org/aviso-legal
+'
 
-  
-
-End
-
-Public Sub TextArea1_KeyPress()
-
-  
-
-End
-
-Public Sub TextArea2_KeyPress()
-
-  
-
-End
 
 Public Sub Traducir_Click()
 
@@ -34,15 +32,4 @@ Public Sub Cancelar_Click()
 
 End
 
-Public Sub Form_Open()
 
-  
-
-End
-
-
-Public Sub Label1_MouseDown()
-
-  
-
-End

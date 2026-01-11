@@ -1,7 +1,7 @@
 # Gambas Project File 3.0
 Title=Quirinux
 Startup=FMain
-Version=0.0.56
+Version=0.0.61
 Component=gb.image
 Component=gb.gui.qt
 Component=gb.form

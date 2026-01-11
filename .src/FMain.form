@@ -1,7 +1,7 @@
 # Gambas Form File 3.0
 
 { Form Form
-  Move(0,0,791,546)
+  Move(0,0,784,546)
   #Scaled = False
   Background = Color.White
   NoTabFocus = True
@@ -62,19 +62,19 @@
     }
   }
   { LogoQuirinux PictureBox
-    Move(581,413,162,117)
+    Move(560,413,162,117)
     Picture = Picture.Load("quirinux-rectangular.png")
     Stretch = True
   }
   { Label1 Label
-    Move(42,0,812,70)
+    Move(21,0,812,70)
     Font = Font["Ubuntu,+4"]
     Background = &HE7DFFF
     Foreground = Color.Black
     Text = (" Asistente de Quirinux")
   }
   { Plantillas_en_linea Button
-    Move(504,203,245,42)
+    Move(497,203,259,42)
     Font = Font["Ubuntu"]
     Foreground = Color.Black
     Mouse = Cursor.Pointing
@@ -83,7 +83,7 @@
     Picture = Picture["icon:/medium/copy"]
   }
   { Programas Button
-    Move(252,105,245,42)
+    Move(231,105,259,42)
     Font = Font["Ubuntu"]
     Foreground = Color.Black
     Mouse = Cursor.Pointing
@@ -91,7 +91,7 @@
     Picture = Picture["icon:/medium/play"]
   }
   { Estilo Button
-    Move(252,154,245,42)
+    Move(231,154,259,42)
     Font = Font["Ubuntu"]
     Foreground = Color.Black
     Mouse = Cursor.Pointing
@@ -100,7 +100,7 @@
     Picture = Picture["icon:/medium/wizard"]
   }
   { Conectar_a_internet Button
-    Move(504,105,245,42)
+    Move(497,105,259,42)
     Font = Font["Ubuntu"]
     Foreground = Color.Black
     Mouse = Cursor.Pointing
@@ -109,7 +109,7 @@
     Picture = Picture["icon:/medium/internet"]
   }
   { nomostrar CheckBox
-    Move(140,434,252,28)
+    Move(119,434,252,28)
     Font = Font["Ubuntu"]
     Foreground = Color.DarkGray
     Mouse = Cursor.Pointing
@@ -117,22 +117,21 @@
     Value = CheckBox.True
   }
   { Label2 Label
-    Move(140,462,477,18)
+    Move(119,462,477,18)
     Font = Font["Ubuntu,Italic,-1"]
     Foreground = &H4F5B80
     Text = ("En modo vivo aparecerá de todas formas.")
   }
   { Opciones_avanzadas Button
-    Move(252,203,245,42)
+    Move(231,203,259,42)
     Font = Font["Ubuntu"]
     Foreground = Color.Black
     Mouse = Cursor.Pointing
-    ToolTip = ("Requiere conexión a internet")
     Text = ("Configuración Avanzada")
     Picture = Picture["icon:/medium/options"]
   }
   { Manual_en_linea Button
-    Move(504,154,245,42)
+    Move(497,154,259,42)
     Font = Font["Ubuntu"]
     Foreground = Color.Black
     Mouse = Cursor.Pointing
@@ -141,24 +140,24 @@
     Picture = Picture["icon:/medium/book"]
   }
   { PictureBox1 PictureBox
-    Move(28,77,210,308)
+    Move(7,77,210,308)
     Picture = Picture.Load("QUIRINUX-PRO.png")
     Stretch = True
   }
   { Label3 Label
-    Move(140,483,477,18)
+    Move(119,483,477,18)
     Font = Font["Ubuntu,Italic,-1"]
     Foreground = &H4F5B80
     Text = ("Puedes acceder desde el botón Quirinux,")
   }
   { Label4 Label
-    Move(140,504,477,18)
+    Move(119,504,477,18)
     Font = Font["Ubuntu,-1"]
     Foreground = &H4F5B80
     Text = ("busca \"Asistente...\"")
   }
   { castellano_ar Button
-    Move(364,322,98,28)
+    Move(343,322,77,28)
     #Translate = False
     Font = Font["Ubuntu"]
     Foreground = &H2F5780
@@ -166,60 +165,83 @@
     Text = "Castellano"
   }
   { english_gb Button
-    Move(567,322,84,28)
+    Move(504,322,63,28)
     Font = Font["Ubuntu"]
     Foreground = &H2F5780
     Mouse = Cursor.Pointing
     Text = ("English")
   }
   { deutsche Button
-    Move(469,322,91,28)
+    Move(427,322,70,28)
     Font = Font["Ubuntu"]
     Foreground = &H2F5780
     Mouse = Cursor.Pointing
     Text = ("Deutsche")
   }
   { francais Button
-    Move(378,357,77,28)
+    Move(574,322,70,28)
     Font = Font["Ubuntu"]
     Foreground = &H2F5780
     Mouse = Cursor.Pointing
     Text = ("Français")
   }
   { galego Button
-    Move(462,357,56,28)
+    Move(651,322,56,28)
     Font = Font["Ubuntu"]
     Foreground = &H2F5780
     Mouse = Cursor.Pointing
     Text = ("Galego")
   }
   { italiano Button
-    Move(525,357,84,28)
+    Move(343,357,70,28)
     Font = Font["Ubuntu"]
     Foreground = &H2F5780
     Mouse = Cursor.Pointing
     Text = ("Italiano")
   }
   { portugues_pt Button
-    Move(616,357,112,28)
+    Move(497,357,84,28)
     Font = Font["Ubuntu"]
     Foreground = &H2F5780
     Mouse = Cursor.Pointing
     Text = ("Português")
   }
   { Idiomas PictureBox
-    Move(273,322,70,56)
+    Move(252,322,70,56)
     Picture = Picture.Load("lenguaje.png")
     Stretch = True
   }
   { Recomendados Button
-    Move(252,252,497,42)
+    Move(497,252,259,42)
     Font = Font["Ubuntu"]
     Foreground = Color.Black
     Mouse = Cursor.Pointing
     ToolTip = ("Requiere conexión a internet")
     Text = ("Software Adicional Recomendado")
     Picture = Picture["icon:/medium/star"]
+  }
+  { ruso Button
+    Move(588,357,70,28)
+    Font = Font["Ubuntu"]
+    Foreground = &H2F5780
+    Mouse = Cursor.Pointing
+    Text = ("Русский")
+  }
+  { magyar Button
+    Move(420,357,70,28)
+    Font = Font["Ubuntu"]
+    Foreground = &H2F5780
+    Mouse = Cursor.Pointing
+    Text = ("Magyar")
+  }
+  { centrodesoftware Button
+    Move(231,252,259,42)
+    Font = Font["Ubuntu"]
+    Foreground = Color.Black
+    Mouse = Cursor.Pointing
+    ToolTip = ("Requiere conexión a internet")
+    Text = ("Centro de software")
+    Picture = Picture["icon:/medium/application"]
   }
 }
 

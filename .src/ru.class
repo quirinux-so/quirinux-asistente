@@ -5,7 +5,7 @@
 ' Ruta:          .src
 ' Autor:         Charlie Martínez® <cmartinez@quirinux.org>
 ' Licencia:      https://www.gnu.org/licenses/gpl-2.0.txt
-' Propósito:     Pantalla de información sobre cambio de idioma a italiano
+' Propósito:     Pantalla de información sobre cambio de idioma a ruso
 ' Distribución:  Quirinux 2.x
 ' ======================================================================
 
@@ -19,7 +19,7 @@
 
 Public Sub Traducir_Click()
 
-  Shell "/usr/local/share/asistente/idiomas/it_IT/it_IT.sh"
+  Shell "/usr/local/share/asistente/idiomas/ru_RU/ru_RU.sh"
   Quit
 
 End
@@ -31,5 +31,4 @@ Public Sub Cancelar_Click()
 
 
 End
-
 
